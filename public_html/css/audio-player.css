@@ -1,0 +1,23 @@
+#audioPlayer {
+  padding:  10px 25px 10px 25px;
+}
+
+#playlist {
+  list-style: none;
+}
+
+#playlist li a {
+  color:black;
+  text-decoration: none;
+  border-left: 6px solid rgb(248, 174, 67); 
+}
+
+#playlist .current-song a {
+  background-color: lightgrey;
+  border-left: 6px solid rgb(5, 125, 194); 
+}
+
+.column{
+  column-count: 2;
+  column-gap: 2em; 
+}
